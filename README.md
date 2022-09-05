@@ -28,7 +28,8 @@ figuring out best Machine Leaning Models to predict credit risk
 ## Models from analysis apparition
 
 ### Balance Random Forest Classifier 
-[Link]()
+[Link](resources/BalancedRandomF.png)
+
 Balance Accuracy Score: 78.88
 Precision - High Risk: 3%
 Precision - Low Risk: 100%
@@ -39,7 +40,8 @@ Avg/Total - Recall: 87
 Avg/Total - f1 score: 93%
 
 ### Combination Sampling (SMOTEENN, Over and Under combination) 
-[Link]()
+[Link](resources/Smoteennoverundercombi.png)
+
 Balance Accuracy Score: 65.44%
 Precision - High Risk: 1%
 Precision - Low Risk: 100%
@@ -50,7 +52,8 @@ Avg/Total - Recall: 57
 Avg/Total - f1 score: 72%
 
 ### Cluster Centroids Undersampling
-[Link]()
+[Link](resources/UnderClusterCen.png)
+
 Balance Accuracy Score: 54.31%
 Precision - High Risk: 1%
 Precision - Low Risk: 100%
@@ -61,7 +64,8 @@ Avg/Total - Recall: 40%
 Avg/Total - f1 score: 57% 
 
 ### Easy Ensemble ADABoost Classifier
-[Link]()
+[Link](resources/EasyEsenADAB.png)
+
 Balance Accuracy Score: 93.16
 Precision - High Risk: 9%
 Precision - Low Risk: 100%
@@ -72,7 +76,8 @@ Avg/Total - Recall: 92%
 Avg/Total - f1 score: 97%
 
 ### Naive Random Oversampling
-[Link]()
+[Link](resources/NaiveRandomOver.png)
+
 Balance Accuracy Score: 67.21%
 Precision - High Risk: 1%
 Precision - Low Risk: 100%
@@ -83,7 +88,8 @@ Avg/Total - Recall: 62%
 Avg/Total - f1 score: 76%
 
 ### Smote Oversampling
-[Link]()
+[Link](resources/SmoteOver.png)
+
 Balance Accuracy Score: 64.17%
 Precision - High Risk: 1%
 Precision - Low Risk: 100%
@@ -100,6 +106,8 @@ Different models were tested for credit risk analysis
 ## summary of the results 
 In the following analysis successful training, splitting and develop of different models were performed. 
 After testing multiple models it was seen that the best model that could help with the predictions of credit risk was the Easy Ensemble ADABoost Classifier. In this model the Balanced Accuracy Score was the best among models, but it was seen that a good balanced was obtaining between sensitivity and precision, meaning it was able to discriminate both sensibly and precise compared to the rest. This model score was f1 whereas in comparison, other models showed lower results.  This was shown with overfit in the models as well as low recall. 
+
+![Link](resources/EasyEsenADAB.png)
 
 Regarding the confusion matrix and classification this had better results when sensitivity, precision and harmony were taken into consideration. 
 
